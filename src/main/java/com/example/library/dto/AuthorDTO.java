@@ -1,7 +1,5 @@
 package com.example.library.dto;
 
-import com.example.library.model.Author;
-import jakarta.persistence.Column;
 import jakarta.persistence.Id;
 
 public class AuthorDTO {

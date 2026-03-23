@@ -4,8 +4,6 @@ import com.example.library.controller.LibrarianController;
 import com.example.library.dto.AuthorDTO;
 import com.example.library.dto.BookDTO;
 import com.example.library.dto.LoanDTO;
-import com.example.library.model.Author;
-import com.example.library.repository.BookRepository;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;

@@ -60,6 +60,7 @@ public class ReaderControllerTest {
     }
 
     @Test
+    @Transactional
     public void reserveTest() throws Exception {
         // проверка сохранения с ошибками
         this.mockMvc.perform(post("/reader/loans/reserve")
